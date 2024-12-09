@@ -8,7 +8,12 @@ pip install numpy Pillow scikit-learn opencv-python matplotlib mediapipe tensor-
 
 Essas bibliotecas fornecem funcionalidades cruciais para a implementação dos algoritmos, como manipulação eficiente de arrays, processamento de imagens, modelos de aprendizado profundo e visualização de resultados. Após a instalação, você está pronto para executar os scripts principais.
 
-# PROBLEMA
+# Dataset
+
+Para utilizar o dataset original, ele pode ser baixado a partir [deste link](https://drive.google.com/drive/folders/1iDMCjAskEzfSnWH_bsVvkQSJ95ApCZ-P?usp=sharing).
+O conteúdo da pasta deve ser extraído em uma pasta dataset deste repositório.
+
+# Problema
 
 O código aborda o desafio de reconhecer e interpretar gestos em Libras (Língua Brasileira de Sinais) em imagens capturadas em tempo real. A segmentação precisa dos gestos em relação ao plano de fundo é crucial para aplicações que visam melhorar a interação entre pessoas com deficiência auditiva e o ambiente digital.
 
@@ -17,7 +22,7 @@ O código aborda o desafio de reconhecer e interpretar gestos em Libras (Língua
 
 Este processo de segmentação é fundamental para garantir a precisão e a confiabilidade dos sistemas de interpretação de gestos, promovendo uma interação mais fluida e inclusiva em ambientes digitais para usuários fluentes em Libras.
 
-# ALGORITMO
+# Algoritmo
 
 O código é dividido em três partes principais, cada uma utilizando algoritmos específicos para resolver diferentes problemas: à captura de iamgens para alimentar o banco, o treinamento de um modelo LSTM para reconhecimento de gestos e a detecção de gestos em tempo real usando MediaPipe.
 
@@ -58,7 +63,7 @@ Funcionamento do Algoritmo:
 - Predição do Gesto: A sequência de pontos-chave é alimentada no modelo LSTM para prever o gesto realizado.
 - Visualização dos Resultados: O resultado da predição é mostrado na tela.
 
-# SOLUÇÃO
+# Solução
 
 Este projeto visa desenvolver um sistema avançado de reconhecimento de gestos em Libras (Língua Brasileira de Sinais), utilizando uma combinação de Visão Computacional e Aprendizado Profundo. A solução é estruturada em duas etapas fundamentais: o treinamento de um modelo LSTM (Long Short-Term Memory) para classificação precisa dos gestos, e a
 implementação de uma aplicação em tempo real capaz de detectar e interpretar esses gestos diretamente de uma câmera.
@@ -85,7 +90,7 @@ capturados.
 Este sistema de captura de gestos em Libras demonstra como a manipulação espacial de pixels e pontos-chave das mãos é essencial para a aplicação prática de reconhecimento de gestos em tempo real. Embora não diretamente relacionado ao algoritmo GrabCut mencionado anteriormente, ele compartilha o princípio de manipulação de dados no espaço da imagem para
 atingir seus objetivos computacionais.
 
-# RESULTADOS OBTIDOS
+# Resultados obtidos
 
 Com base nos valores obtidos após o treinamento do modelo:
 
